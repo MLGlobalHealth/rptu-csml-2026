@@ -15,7 +15,8 @@ Winter term 2026/27 ~ RPTU Kaiserslautern-Landau
 <dt>Instructor</dt>
 <dd><a href="https://www.sethrf.com">Prof. Dr. Seth Flaxman</a></dd>
 <dt>Office hours</dt>
-<dd>Wednesdays at 9:00, every week, Building 48, Room 460</dd>
+<dd>Wednesdays at 9:00, every week, Building 48, Room 460<br>
+No appointment needed, just come along with your partners to discuss, even if you don't have questions. Everyone <em>must</em> attend at least once per month!</dd>
 <dt>Handout</dt>
 <dd><a href="handouts/first%20meeting.docx">First meeting questionnaire (Word)</a></dd>
 <dt>Preparation</dt>

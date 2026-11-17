@@ -26,7 +26,7 @@ departments = gpd.read_file("data/boundaries/cmr_adm2_58.geojson")
 
 - geoBoundaries, Cameroon, level ADM2, boundaries representative of 2016
 - Original file: `geoBoundaries-CMR-ADM2.geojson` (the full version, not the simplified one)
-- Downloaded on 16 November 2026 from
+- Downloaded from
   https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-cameroon
 - Original data source named by geoBoundaries: Open Africa,
   https://africaopendata.org/dataset/cameroon-maps

@@ -49,15 +49,34 @@ Changes made with geopandas:
 
 The borders themselves were not changed or simplified.
 
-## Licence and citation
+The script `clean_boundaries.py` in this folder does these two steps. To make the
+file again from the original download:
 
-The metadata shipped with the download states Creative Commons Attribution 4.0
-International (CC BY 4.0). Attribution is required.
+```
+python clean_boundaries.py geoBoundaries-CMR-ADM2.geojson cmr_adm2_58.geojson
+```
 
-Please cite:
+## Credits
+
+**Data:** administrative boundaries courtesy of geoBoundaries,
+https://www.geoboundaries.org
 
 > Runfola D, Anderson A, Baier H, Crittenden M, Dowker E, Fuhrig S, et al. (2020)
 > geoBoundaries: A global database of political administrative boundaries.
 > PLoS ONE 15(4): e0231866. https://doi.org/10.1371/journal.pone.0231866
 
-and link to https://www.geoboundaries.org.
+**Original source** named by geoBoundaries: Open Africa,
+https://africaopendata.org/dataset/cameroon-maps
+
+**Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/, as stated in the metadata of the
+download. (The HDX page lists the Open Database License instead. Both require
+this credit.)
+
+**Changes:** this file is modified. The two pieces of Ndian and of
+Sanaga-Maritime were merged (60 rows to 58), and only the columns `shapeName`
+and `geometry` were kept. See "What was changed" above.
+
+**If you use this file**, for example in a report, slides or a map, credit
+geoBoundaries and cite the paper above. A short credit under a map is enough:
+"Boundaries: geoBoundaries (Runfola et al., 2020)".
